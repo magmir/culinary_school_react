@@ -11,7 +11,6 @@ const CourseItem = ({ course }) => {
       <div className="course-description">
         <span className="course-label">description:</span>
         <span className="course-info">{course.description}</span>
-        <span className="course-label">duration:</span>
         <span className="course-info">{course.duration}</span>
         <span className="course-label">price:</span>
         <span className="course-info">{course.price}</span>
